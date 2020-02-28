@@ -7,6 +7,10 @@ function initializeHandlers() {
 		startTest(parseInt($(this).attr("chapter")));
 	});	
 	
+	$(".btn-home").click(function() {
+		showChaptersAndHideTest();
+	});	
+	
 	$(".btn-prev").click(function() {
 		showQuestion(--currentQuestionIdx);
 	});
@@ -25,6 +29,11 @@ function startTest(chapterIdx) {
 function hideChaptersAndShowTest() {
 	$(".ham-chapters").hide();
 	$(".ham-test").show();
+}
+
+function showChaptersAndHideTest() {
+	$(".ham-chapters").show();
+	$(".ham-test").hide();
 }
 
 var hamQuestions = null;

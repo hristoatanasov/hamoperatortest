@@ -17,3 +17,8 @@ input[type="radio"][iscorrect="no"]:checked+label
 {
 	padding-bottom: 10px;
 }
+
+.buttons-row
+{
+	padding-top: 5px;
+}
