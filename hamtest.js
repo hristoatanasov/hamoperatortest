@@ -1,10 +1,12 @@
 $(document).ready(function() {
 	initializeHandlers();
-	initializeQuestions();
-    startTest();
 });
 
 function initializeHandlers() {
+	$(".btn-chapter").click(function() {
+		startTest(parseInt($(this).attr("chapter")));
+	});	
+	
 	$(".btn-prev").click(function() {
 		showQuestion(--currentQuestionIdx);
 	});
@@ -14,14 +16,28 @@ function initializeHandlers() {
 	});
 }
 
-var hamQuestions = null;
-var currentQuestionIdx = 0;
-function initializeQuestions() {
-	hamQuestions = hamQuestions1;
+function startTest(chapterIdx) {
+	hideChaptersAndShowTest();
+	initializeQuestions(chapterIdx);
+	showQuestion(currentQuestionIdx);
 }
 
-function startTest() {
-	showQuestion(currentQuestionIdx);
+function hideChaptersAndShowTest() {
+	$(".ham-chapters").hide();
+	$(".ham-test").show();
+}
+
+var hamQuestions = null;
+var currentQuestionIdx = 0;
+function initializeQuestions(chapterIdx) {
+	switch(chapterIdx) {
+		case 1: hamQuestions = hamQuestions1;
+				break;
+		case 2: hamQuestions = hamQuestions2;
+				break;
+		case 3: hamQuestions = hamQuestions3;
+				break;		
+	}
 }
 
 function showQuestion(questionIdx) {

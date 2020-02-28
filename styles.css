@@ -12,3 +12,8 @@ input[type="radio"][iscorrect="no"]:checked+label
 { 
 	background-color: #e8574d;
 } 
+
+.chapter-row
+{
+	padding-bottom: 10px;
+}
