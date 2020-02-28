@@ -34,7 +34,11 @@ function showQuestion(questionIdx) {
 	var answersHtml = question.answers.map((ans, idx) => {
 			var answerHtml = questionHtml.find(".answer").clone();
 			var id = "chkAnswer" + idx;
-			answerHtml.find(".form-check-input").attr("id", id);
+			
+			answerHtml.find(".form-check-input")
+			.attr("id", id)
+			.attr("iscorrect", (ans.isCorrect ? "yes" : "no"));
+			
 			answerHtml.find(".form-check-label").attr("for", id);
 			var ansLabelPrefix = "";
 			switch(idx) {
