@@ -840,17 +840,17 @@ var hamQuestions1 = [
 	"question": "С кой от символите се представя резистор (съпротивление)?",
 	"answers": [
 		{
-			"answer": ""
+			"answer": "<img src='images/45_1.png' />"
 		},
 		{
-			"answer": ""
+			"answer": "<img src='images/45_2.png' />"
 		},
 		{
-			"answer": "",
+			"answer": "<img src='images/45_3.png' />",
 			"isCorrect": true
 		},
 		{
-			"answer": ""
+			"answer": "<img src='images/45_4.png' />"
 		}
 	]
 },
@@ -859,16 +859,16 @@ var hamQuestions1 = [
 	"question": "Кой от компонентите на схемата е променлив резистор (потенциометър)?",
 	"answers": [
 		{
-			"answer": ""
+			"answer": "<img src='images/46_1.png' />"
 		},
 		{
-			"answer": ""
+			"answer": "<img src='images/46_2.png' />"
 		},
 		{
-			"answer": ""
+			"answer": "<img src='images/46_3.png' />"
 		},
 		{
-			"answer": "",
+			"answer": "<img src='images/46_4.png' />",
 			"isCorrect": true
 		}
 	]

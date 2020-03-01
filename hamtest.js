@@ -47,6 +47,7 @@ function initializeQuestions(chapterIdx) {
 		case 3: hamQuestions = hamQuestions3;
 				break;		
 	}
+	currentQuestionIdx = 0;
 }
 
 function showQuestion(questionIdx) {
