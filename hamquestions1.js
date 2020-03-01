@@ -935,17 +935,17 @@ var hamQuestions1 = [
 	"question": "С кой от символите се представя заземяване?",
 	"answers": [
 		{
-			"answer": "",
+			"answer": "<img src='images/50_1.png' />",
 			"isCorrect": true
 		},
 		{
-			"answer": ""
+			"answer": "<img src='images/50_2.png' />"
 		},
 		{
-			"answer": ""
+			"answer": "<img src='images/50_3.png' />"
 		},
 		{
-			"answer": ""
+			"answer": "<img src='images/50_4.png' />"
 		}
 	]
 },
@@ -954,16 +954,16 @@ var hamQuestions1 = [
 	"question": "С кой от символите се представя антена?",
 	"answers": [
 		{
-			"answer": ""
+			"answer": "<img src='images/51_1.png' />"
 		},
 		{
-			"answer": ""
+			"answer": "<img src='images/51_2.png' />"
 		},
 		{
-			"answer": ""
+			"answer": "<img src='images/51_3.png' />"
 		},
 		{
-			"answer": "",
+			"answer": "<img src='images/51_4.png' />",
 			"isCorrect": true
 		}
 	]
@@ -973,16 +973,16 @@ var hamQuestions1 = [
 	"question": "С кой от символите се представя кондензатор?",
 	"answers": [
 		{
-			"answer": ""
+			"answer": "<img src='images/52_1.png' />"
 		},
 		{
-			"answer": ""
+			"answer": "<img src='images/52_2.png' />"
 		},
 		{
-			"answer": ""
+			"answer": "<img src='images/52_3.png' />"
 		},
 		{
-			"answer": "",
+			"answer": "<img src='images/52_4.png' />",
 			"isCorrect": true
 		}
 	]
@@ -992,17 +992,17 @@ var hamQuestions1 = [
 	"question": "С кой от символите се представя n-p-n биполярен транзистор?",
 	"answers": [
 		{
-			"answer": "",
+			"answer": "<img src='images/53_1.png' />",
 			"isCorrect": true
 		},
 		{
-			"answer": ""
+			"answer": "<img src='images/53_2.png' />"
 		},
 		{
-			"answer": ""
+			"answer": "<img src='images/53_3.png' />"
 		},
 		{
-			"answer": ""
+			"answer": "<img src='images/53_4.png' />"
 		}
 	]
 },
@@ -1011,17 +1011,17 @@ var hamQuestions1 = [
 	"question": "С кой от символите се представя p-n-p биполярен транзистор?",
 	"answers": [
 		{
-			"answer": ""
+			"answer": "<img src='images/54_1.png' />"
 		},
 		{
-			"answer": "",
+			"answer": "<img src='images/54_2.png' />",
 			"isCorrect": true
 		},
 		{
-			"answer": ""
+			"answer": "<img src='images/54_3.png' />"
 		},
 		{
-			"answer": ""
+			"answer": "<img src='images/54_4.png' />"
 		}
 	]
 },
@@ -1030,17 +1030,17 @@ var hamQuestions1 = [
 	"question": "С кой от символите се представя диод?",
 	"answers": [
 		{
-			"answer": ""
+			"answer": "<img src='images/55_1.png' />"
 		},
 		{
-			"answer": "",
+			"answer": "<img src='images/55_2.png' />",
 			"isCorrect": true
 		},
 		{
-			"answer": ""
+			"answer": "<img src='images/55_3.png' />"
 		},
 		{
-			"answer": ""
+			"answer": "<img src='images/55_4.png' />"
 		}
 	]
 },
