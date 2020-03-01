@@ -878,16 +878,16 @@ var hamQuestions1 = [
 	"question": "Кой от компонентите на схемата е ключ?",
 	"answers": [
 		{
-			"answer": ""
+			"answer": "<img src='images/47_1.png' />"
 		},
 		{
-			"answer": ""
+			"answer": "<img src='images/47_2.png' />"
 		},
 		{
-			"answer": ""
+			"answer": "<img src='images/47_3.png' />"
 		},
 		{
-			"answer": "",
+			"answer": "<img src='images/47_4.png' />",
 			"isCorrect": true
 		}
 	]
@@ -897,17 +897,17 @@ var hamQuestions1 = [
 	"question": "Кой от компонентите на схемата е предпазител (бушон)?",
 	"answers": [
 		{
-			"answer": ""
+			"answer": "<img src='images/48_1.png' />"
 		},
 		{
-			"answer": "",
+			"answer": "<img src='images/48_2.png' />",
 			"isCorrect": true
 		},
 		{
-			"answer": ""
+			"answer": "<img src='images/48_3.png' />"
 		},
 		{
-			"answer": ""
+			"answer": "<img src='images/48_4.png' />"
 		}
 	]
 },
@@ -916,17 +916,17 @@ var hamQuestions1 = [
 	"question": "Кой от компонентите на схемата е батерия?",
 	"answers": [
 		{
-			"answer": "",
+			"answer": "<img src='images/49_1.png' />",
 			"isCorrect": true
 		},
 		{
-			"answer": ""
+			"answer": "<img src='images/49_2.png' />"
 		},
 		{
-			"answer": ""
+			"answer": "<img src='images/49_3.png' />"
 		},
 		{
-			"answer": ""
+			"answer": "<img src='images/49_4.png' />"
 		}
 	]
 },
